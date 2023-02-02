@@ -4,7 +4,7 @@ function temperature(){
 
     var c = document.getElementById("celsius").value;
     var f = (c * 9/5) + 32
-    document.getElementById("fahrenheit").value;
+    document.getElementById("fahrenheit").value = f
 }
 
     function weight(){
@@ -12,7 +12,7 @@ function temperature(){
         //KG * 2.2
         var kg = document.getElementById("kilo").value;
         var p = kg * 2.2
-        document.getElementById("pounds").value;
+        document.getElementById("pounds").value = p
     }
 
     function distance(){
@@ -20,7 +20,7 @@ function temperature(){
         //KM * 0.62137
         var km = document.getElementById(kme).value;
         var m = km * 0.62137
-        document.getElementById(miles).value;
+        document.getElementById(miles).value = m
     }
 
 
