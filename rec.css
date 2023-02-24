@@ -1,0 +1,16 @@
+body{
+    color: #fff;
+    background-color: black;
+}
+h1{
+    font-size: 30px;
+    font-family: sans-serif;
+    padding: 20px 20px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: #ff004f;
+}
+h3{
+    
+}
